@@ -1,11 +1,10 @@
 # GAN_coursera
 
-
 Below are some useful python notebooks for different GAN model implementation.
 
 ### Building Basic GAN
 #### Week 1
-##### Reading recommendations
+#### Reading recommendations
 
 - Hyperspherical Variational Auto-Encoders (Davidson, Falorsi, De Cao, Kipf, and Tomczak, 2018): https://www.researchgate.net/figure/Latent-space-visualization-of-the-10-MNIST-digits-in-2-dimensions-of-both-N-VAE-left_fig2_324182043
 - Analyzing and Improving the Image Quality of StyleGAN (Karras et al., 2020): https://arxiv.org/abs/1912.04958
@@ -18,26 +17,40 @@ Below are some useful python notebooks for different GAN model implementation.
 - MNIST Database: http://yann.lecun.com/exdb/mnist/
 
 #### Week 2
-##### Reading recommendations
+#### Reading recommendations
 - **Transposed convolutions :** Odena, et al., "Deconvolution and Checkerboard Artifacts", Distill, 2016. http://doi.org/10.23915/distill.00003
 - **DCGAN paper :** Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks (Radford, Metz, and Chintala, 2016): https://arxiv.org/abs/1511.06434
 - Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks (Radford, Metz, and Chintala, 2016): https://arxiv.org/abs/1511.06434
 
-##### Python notebooks
+#### Python notebooks
 - In this notebook, you're going to learn about TGAN, from the paper Temporal Generative Adversarial Nets with Singular Value Clipping (Saito, Matsumoto, & Saito, 2017), and its origins in image generation. 
 Notebook link: https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C1W2_Video_Generation_(Optional).ipynb
 
 #### Week 3
-##### Reading recommendations
+#### Reading recommendations
 - **Spectral normalization (SNGAN)**, a weight normalization technique to stabilize the training of the discriminator, as proposed in Spectral Normalization for Generative Adversarial Networks (Miyato et al. 2018).
 - **Protein GAN**: https://www.biorxiv.org/content/10.1101/789719v2
 - **WGAN** Wasserstein GAN (Arjovsky, Chintala, and Bottou, 2017): https://arxiv.org/abs/1701.07875
 - **WGAN-GP** Improved Training of Wasserstein GANs (Gulrajani et al., 2017): https://arxiv.org/abs/1704.00028 Gradient penalty (GP) as well as weight clipping to WGAN in order to enforce 1-Lipschitz continuity and improve stability
 - **From GAN to WGAN (Weng, 2017):** https://lilianweng.github.io/lil-log/2017/08/20/from-GAN-to-WGAN.html This article provides a great walkthrough of how WGAN addresses the difficulties of training a traditional GAN with a focus on the loss functions.
-##### Python notebooks
+#### Python notebooks
 - **ProteinGAN:** https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/ProteinGAN.ipynb
+
+#### Week 4
+#### Reading recommendations
+- **Conditional GAN:** Conditional Generative Adversarial Nets (Mirza and Osindero, 2014): https://arxiv.org/abs/1411.1784
+- An example of Controllable GAN: Interpreting the Latent Space of GANs for Semantic Face Editing (Shen, Gu, Tang, and Zhou, 2020): https://arxiv.org/abs/1907.10786
+
+
+### Building Better GAN
+#### Week 1
+#### Reading recommendations
+- A Note on the Inception Score (Barratt and Sharma, 2018): https://arxiv.org/abs/1801.01973 Know more about why Fréchet Inception Distance has overtaken Inception Score, this paper illustrates the problems with using Inception Score.
+- HYPE: A Benchmark for Human eYe Perceptual Evaluation of Generative Models (Zhou et al., 2019): https://arxiv.org/abs/1904.01121 Human evaluation and HYPE (Human eYe Perceptual Evaluation) of GANs.
+- Improved Precision and Recall Metric for Assessing Generative Models (Kynkäänniemi, Karras, Laine, Lehtinen, and Aila, 2019): https://arxiv.org/abs/1904.06991
+- Fréchet Inception Distance (Jean, 2018): https://nealjean.com/ml/frechet-inception-distance/
+- GAN — How to measure GAN performance? (Hui, 2018): https://medium.com/@jonathan_hui/gan-how-to-measure-gan-performance-64b988c47732
 - 
-
-
+#### Python notebooks
 
 
