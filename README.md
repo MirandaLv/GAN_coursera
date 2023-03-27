@@ -2,7 +2,7 @@
 
 Below are some useful python notebooks for different GAN model implementation.
 
-### Building Basic GAN
+## Building Basic GAN
 #### Week 1
 #### Reading recommendations
 
@@ -42,7 +42,7 @@ Notebook link: https://colab.research.google.com/github/https-deeplearning-ai/GA
 - An example of Controllable GAN: Interpreting the Latent Space of GANs for Semantic Face Editing (Shen, Gu, Tang, and Zhou, 2020): https://arxiv.org/abs/1907.10786
 
 
-### Building Better GAN
+## Building Better GAN
 #### Week 1
 #### Reading recommendations
 - A Note on the Inception Score (Barratt and Sharma, 2018): https://arxiv.org/abs/1801.01973 Know more about why Fréchet Inception Distance has overtaken Inception Score, this paper illustrates the problems with using Inception Score.
@@ -71,7 +71,6 @@ Notebook link: https://colab.research.google.com/github/https-deeplearning-ai/GA
 - **Score-based GAN model:** https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C2W2_(Optional_Notebook)_Score_Based_Generative_Modeling.ipynb This is a hitchhiker's guide to score-based generative models, a family of approaches based on estimating gradients of the data distribution. They have obtained high-quality samples comparable to GANs (like below, figure from this paper) without requiring adversarial training, and are considered by some to be the new contender to GANs.
 - **GAN debiasing:** https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C2W2_GAN_Debiasing_(Optional).ipynb In this notebook, you will learn about Fair Attribute Classification through Latent Space De-biasing (Ramaswamy et al. 2020) that introduces a method for training accurate target classifiers while mitigating biases that stem from these correlations. Specifically, this work uses GANs to generate realistic-looking images and perturb these images in the underlying latent space to generate training data that is balanced for each protected attribute. They augment the original dataset with this perturbed generated data, and empirically demonstrate that target classifiers trained on the augmented dataset exhibit a number of both quantitative and qualitative benefits.
 - **NeRF: Neural Radiance Fields:** https://colab.research.google.com/drive/18DladhUz7_U8iBkkQxMBk2f7C2NAvPCC?usp=sharing In this notebook, you'll learn how to use Neural Radiance Fields to generate new views of a complex 3D scene using only a couple input views, first proposed by NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis (Mildenhall et al. 2020). Though 2D GANs have seen success in high-resolution image synthesis, NeRF has quickly become a popular technique to enable high-resolution 3D-aware GANs.
-
 
 
 
