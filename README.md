@@ -2,7 +2,7 @@
 
 Below are some useful python notebooks for different GAN model implementation.
 
-## Building Basic GAN
+## Course 1. Building Basic GAN
 #### Week 1
 #### Reading recommendations
 
@@ -42,7 +42,7 @@ Notebook link: https://colab.research.google.com/github/https-deeplearning-ai/GA
 - An example of Controllable GAN: Interpreting the Latent Space of GANs for Semantic Face Editing (Shen, Gu, Tang, and Zhou, 2020): https://arxiv.org/abs/1907.10786
 
 
-## Building Better GAN
+## Course 2. Building Better GAN
 #### Week 1
 #### Reading recommendations
 - A Note on the Inception Score (Barratt and Sharma, 2018): https://arxiv.org/abs/1801.01973 Know more about why Fréchet Inception Distance has overtaken Inception Score, this paper illustrates the problems with using Inception Score.
@@ -73,6 +73,11 @@ Notebook link: https://colab.research.google.com/github/https-deeplearning-ai/GA
 - **NeRF: Neural Radiance Fields:** https://colab.research.google.com/drive/18DladhUz7_U8iBkkQxMBk2f7C2NAvPCC?usp=sharing In this notebook, you'll learn how to use Neural Radiance Fields to generate new views of a complex 3D scene using only a couple input views, first proposed by NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis (Mildenhall et al. 2020). Though 2D GANs have seen success in high-resolution image synthesis, NeRF has quickly become a popular technique to enable high-resolution 3D-aware GANs.
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mirandalv)](https://github.com/anuraghazra/github-readme-stats)
+
+
+
+
+## Course 3. Apply Generative Adversarial Networks (GANs)
 
 
 
