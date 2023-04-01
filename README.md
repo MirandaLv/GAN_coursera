@@ -1,7 +1,6 @@
 # Coursera's specialization of Generative Adversarial Networks (GANs) offered by Deeplearning.AI
 
-Below are some useful python notebooks for different GAN model implementation.
-
+This repo summarizes all the recommended reading materials and notebooks that are related to GANs offered by DeeplearningAI. The reading materials are not all covered in details in the specialization courses, but some notebooks and recommended readings could be used as a starting point to learn different algorithms and applications. 
 ## Course 1. Building Basic GAN
 #### Week 1
 #### Reading recommendations
