@@ -1,4 +1,4 @@
-# GAN_coursera
+# Coursera's specialization of Generative Adversarial Networks (GANs) offered by Deeplearning.AI
 
 Below are some useful python notebooks for different GAN model implementation.
 
@@ -72,10 +72,24 @@ Notebook link: https://colab.research.google.com/github/https-deeplearning-ai/GA
 - **GAN debiasing:** https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C2W2_GAN_Debiasing_(Optional).ipynb In this notebook, you will learn about Fair Attribute Classification through Latent Space De-biasing (Ramaswamy et al. 2020) that introduces a method for training accurate target classifiers while mitigating biases that stem from these correlations. Specifically, this work uses GANs to generate realistic-looking images and perturb these images in the underlying latent space to generate training data that is balanced for each protected attribute. They augment the original dataset with this perturbed generated data, and empirically demonstrate that target classifiers trained on the augmented dataset exhibit a number of both quantitative and qualitative benefits.
 - **NeRF: Neural Radiance Fields:** https://colab.research.google.com/drive/18DladhUz7_U8iBkkQxMBk2f7C2NAvPCC?usp=sharing In this notebook, you'll learn how to use Neural Radiance Fields to generate new views of a complex 3D scene using only a couple input views, first proposed by NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis (Mildenhall et al. 2020). Though 2D GANs have seen success in high-resolution image synthesis, NeRF has quickly become a popular technique to enable high-resolution 3D-aware GANs.
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mirandalv)](https://github.com/anuraghazra/github-readme-stats)
+[comment]: <> ([![Anurag's GitHub stats]&#40;https://github-readme-stats.vercel.app/api?username=mirandalv&#41;]&#40;https://github.com/anuraghazra/github-readme-stats&#41;)
 
+#### Week 3
+#### Reading recommendations
+- **StyleGAN**: A Style-Based Generator Architecture for Generative Adversarial Networks (Karras, Laine, and Aila, 2019): https://arxiv.org/abs/1812.04948
+- GAN — StyleGAN & StyleGAN2 (Hui, 2020): https://medium.com/@jonathan_hui/gan-stylegan-stylegan2-479bdf256299
+- Generative Adversarial Networks (Goodfellow et al., 2014): https://arxiv.org/abs/1406.2661
+- Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks (Radford, Metz, and Chintala, 2016): https://arxiv.org/abs/1511.06434
+- Coupled Generative Adversarial Networks (Liu and Tuzel, 2016): https://arxiv.org/abs/1606.07536
+- Progressive Growing of GANs for Improved Quality, Stability, and Variation (Karras, Aila, Laine, and Lehtinen, 2018): https://arxiv.org/abs/1710.10196
+- The Unusual Effectiveness of Averaging in GAN Training (Yazici et al., 2019): https://arxiv.org/abs/1806.04498v2
+- StyleGAN - Official TensorFlow Implementation (Karras et al., 2019): https://github.com/NVlabs/stylegan
+- StyleGAN Faces Training (Branwen, 2019): https://www.gwern.net/images/gan/2019-03-16-stylegan-facestraining.mp4
+- Facebook AI Proposes Group Normalization Alternative to Batch Normalization (Peng, 2018): https://medium.com/syncedreview/facebook-ai-proposes-group-normalization-alternative-to-batch-normalization-fb0699bffae7
 
-
+#### Python notebooks
+- In this notebook, you're going to learn about StyleGAN2, from the paper Analyzing and Improving the Image Quality of StyleGAN (Karras et al., 2019), and how it builds on StyleGAN. This is the V2 of StyleGAN, so be prepared for even more extraordinary outputs. [a relative link](C2_BetterGAN/W3/StyleGAN2.ipynb)
+- In this notebook, you'll learn about and implement the components of BigGAN, the first large-scale GAN architecture proposed in Large Scale GAN Training for High Fidelity Natural Image Synthesis (Brock et al. 2019). BigGAN performs a conditional generation task, so unlike StyleGAN, it conditions on a certain class to generate results. BigGAN is based mainly on empirical results and shows extremely good results when trained on ImageNet and its 1000 classes. [a relative link](C2_BetterGAN/W3/BigGAN.ipynb) 
 
 ## Course 3. Apply Generative Adversarial Networks (GANs)
 
