@@ -102,8 +102,7 @@ Notebook link: https://colab.research.google.com/github/https-deeplearning-ai/GA
 
 #### Python notebooks
 - **Generative Teaching Network (GTN)**, first introduced in Generative Teaching Networks: Accelerating Neural Architecture Search by Learning to Generate Synthetic Training Data (Such et al. 2019). Essentially, a GTN is composed of a generator (i.e. teacher), which produces synthetic data, and a student, which is trained on this data for some task. The key difference between GTNs and GANs is that GTN models work cooperatively (as opposed to adversarially). https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C3W1_Generative_Teaching_Networks_(Optional).ipynb
-- 
-
+- **Data Augmentation**, [a relative link](C3_ApplyGAN/Week1/C3W1_DataAugmentation.ipynb).
 
 #### Week 2. Image-to-Image translation with pix2pix
 #### Reading recommendations
@@ -113,11 +112,21 @@ Notebook link: https://colab.research.google.com/github/https-deeplearning-ai/GA
 - In this notebook, you will learn about Pix2PixHD, which synthesizes high-resolution images from semantic label maps. Proposed in High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs (Wang et al. 2018), Pix2PixHD improves upon Pix2Pix via multiscale architecture, improved adversarial loss, and instance maps. https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C3W2_Pix2PixHD_(Optional).ipynb
 - In this notebook, you will learn about Super-Resolution GAN (SRGAN), a GAN that enhances the resolution of images by 4x, proposed in Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network (Ledig et al. 2017). You will also implement the architecture and training in full and be able to train it on the CIFAR dataset. https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C3W2_SRGAN_(Optional).ipynb
 - In this notebook, you will learn about GauGAN, which synthesizes high-resolution images from semantic label maps, which you implement and train. GauGAN is based around a special denormalization technique proposed in Semantic Image Synthesis with Spatially-Adaptive Normalization (Park et al. 2019). https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C3W2_GauGAN_(Optional).ipynb
+- UNet, [a relative link](C3_ApplyGAN/Week2/C3W2A_UNet.ipynb).
+- Pix2Pix, [a relative link](C3_ApplyGAN/Week2/C3W2B_Pix2Pix.ipynb).
 
 #### Week 3. Unpaired translation with CycleGAN
 
+#### Reading recommendations
+- **CycleGAN**, Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks (Zhu, Park, Isola, and Efros, 2020): https://arxiv.org/abs/1703.10593
+- Data augmentation using generative adversarial networks (CycleGAN) to improve generalizability in CT segmentation tasks (Sandfort, Yan, Pickhardt, and Summers, 2019): https://www.nature.com/articles/s41598-019-52737-x.pdf
+- Distribution Matching Losses Can Hallucinate Features in Medical Image Translation (Cohen, Luck, and Honari, 2018): https://arxiv.org/abs/1805.08841
 
-
+#### Python notebooks
+- In this notebook, you will learn about and implement MUNIT, a method for unsupervised image-to-image translation, as proposed in Multimodal Unsupervised Image-to-Image Translation (Huang et al. 2018). https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C3W3_MUNIT_(Optional).ipynb
+- PyTorch implementation of CycleGAN (2017): https://github.com/togheppi/CycleGAN
+- Unsupervised Image-to-Image Translation (NVIDIA, 2018): https://github.com/mingyuliutw/UNIT
+- Multimodal Unsupervised Image-to-Image Translation (Huang et al., 2018): https://github.com/NVlabs/MUNIT
 
 
 
