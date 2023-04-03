@@ -127,6 +127,7 @@ Notebook link: https://colab.research.google.com/github/https-deeplearning-ai/GA
 - PyTorch implementation of CycleGAN (2017): https://github.com/togheppi/CycleGAN
 - Unsupervised Image-to-Image Translation (NVIDIA, 2018): https://github.com/mingyuliutw/UNIT
 - Multimodal Unsupervised Image-to-Image Translation (Huang et al., 2018): https://github.com/NVlabs/MUNIT
+- CycleGAN [a relative link](C3_ApplyGAN/Week3/C3W3_CycleGAN.ipynb).
 
 
 
